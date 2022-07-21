@@ -1,3 +1,4 @@
+QUESTION 1
 DF COMMAND 
 $ df
 
@@ -5,6 +6,10 @@ FIND COMMAND
 $find /home/mca46/Desktop/external
 $ find /home/mca46/Desktop/external/fil1.txt
 
+DIFF COMMAND
+$diff fil2.txt fil1.txt
+
+QUESTION 2
 REVERSE A NUMBER
 #! /bin/bash
 echo "Enter a number"
@@ -19,6 +24,7 @@ n=`expr $n / 10 `
 done
 echo "Reversed number is $rev"
 
+QUESTION 3
 NETSTAT
 $ netstat google.com
 $ netstat -al google.com
