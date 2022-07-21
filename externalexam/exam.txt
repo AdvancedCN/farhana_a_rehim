@@ -1,0 +1,32 @@
+DF COMMAND 
+$ df
+
+FIND COMMAND  
+$find /home/mca46/Desktop/external
+$ find /home/mca46/Desktop/external/fil1.txt
+
+REVERSE A NUMBER
+#! /bin/bash
+echo "Enter a number"
+read n
+sd=0
+rev=0
+while [ $n -gt 0 ]
+do
+sd=`expr $n % 10 `
+rev=`expr $rev \* 10 + $sd `
+n=`expr $n / 10 `
+done
+echo "Reversed number is $rev"
+
+NETSTAT
+$ netstat google.com
+$ netstat -al google.com
+$ netstat -i google.com
+$ netstat -r google.com
+$ netstat -at google.com
+$ netstat -au google.com
+$ netstat -s google.com
+$ netstat -l google.com
+$ netstat -lt google.com
+$ netstat -lu google.com
